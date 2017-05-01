@@ -16,11 +16,23 @@ class OpeningBox extends React.Component {
     }
   }
 
+
   render(){
+
+
+    const divStyle = {
+      color: 'blue',
+      border: '1px solid grey',
+      width: '40%'
+    }
+
     return (
 
-      <div className="opening-list-box">
+      <div className="opening-list-box" style={divStyle}>
+        <h2>UK Opening This Week</h2>
         <OpeningList films = {this.state.films} />
+        <br />
+        <a href="#">See more opening this week</a>
       </div>
 
     )

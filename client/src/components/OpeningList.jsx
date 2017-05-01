@@ -24,3 +24,6 @@ class OpeningList extends React.Component {
 }
 
 export default OpeningList;
+
+
+// <img src="https://www.materialui.co/materialIcons/action/bookmark_grey_192x192.png" />
