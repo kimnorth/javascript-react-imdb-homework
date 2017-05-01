@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import OpeningBox from './components/OpeningBox.jsx';
 
 window.onload = function(){
   ReactDOM.render(
-    <h1> App Started </h1>,
+    <OpeningBox />,
     document.getElementById('app')
   );
 }
