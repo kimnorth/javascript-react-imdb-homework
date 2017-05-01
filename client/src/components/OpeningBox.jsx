@@ -7,11 +7,11 @@ class OpeningBox extends React.Component {
     super(props)
     this.state = {
       films: [
-        {film: "A Dog's Purpose"}, 
-        {film: "Sleepless"}, 
-        {film: "Mindhorn"},
-        {film: "Unlocked"},
-        {film: "The Journey"}
+        {film: "A Dog's Purpose", id: 1}, 
+        {film: "Sleepless", id: 2}, 
+        {film: "Mindhorn", id: 3},
+        {film: "Unlocked", id: 4},
+        {film: "The Journey", id: 5}
       ]
     }
   }
@@ -20,7 +20,7 @@ class OpeningBox extends React.Component {
     return (
 
       <div className="opening-list-box">
-        This is the opening list box
+        <OpeningList films = {this.state.films} />
       </div>
 
     )
